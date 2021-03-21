@@ -1,0 +1,20 @@
+# 1. print "Hello World"
+
+>>> print ("Hello World")
+Hello World
+
+# 2. print "Hello Noelle!" with the name in a variable
+
+>>> name = "Noelle"
+>>> print ("Hello", name)
+Hello Noelle
+
+# 3. print "Hello 42!" with the number in a variable
+
+>>> name = 42
+>>> print("Hello", name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object is not callable
+
+# 4. print "I love to eat sushi and pizza." with the foods in variables
